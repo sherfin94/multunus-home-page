@@ -1,7 +1,7 @@
 
 .my-navbar {
-  height: 60px;
-
+  height: 80px;
+  margin:0;
   background-color: black;
   border: 0;
   border-radius: 0;
@@ -9,19 +9,21 @@
 
 .navbar-brand {
   padding: 5px;
-  width: 55px;
+  width: 72px;
   overflow: hidden;
   transition: width 1s ;
 }
 
 .navbar-brand:hover {
-  width: 200px;
+  width: 250px;
 }
 
 .navbar-default .my-navbar-brand, .navbar-default .navbar-nav li>a, .my-navbar-nav li.active a {
   color: white;
-  height: 56px;
-  line-height: 28px;
+  height: 76px;
+  line-height: 45px;
+  letter-spacing: 1.5px;
+  border-top: solid black 4px;
 }
 
 .navbar-default .navbar-nav li.active>a {
@@ -46,7 +48,7 @@
   color: white;
   font-size: 14px;
   height: inherit;
-  line-height: 60px;
+  line-height: 80px;
 
 }
 
@@ -64,13 +66,13 @@
 }
 
 .email-holder p:after {
-  letter-spacing: 1.5px;
-  font-size: 14px;
+  letter-spacing: 2px;
+  font-size: 15px;
   content : "Disciplined Creativity";
   animation: emailTextAnimation 5s linear infinite alternate;
 }
 
 .navbar img.logo {
-  width: 200px;
+  width: 250px;
   height: inherit;
 }
