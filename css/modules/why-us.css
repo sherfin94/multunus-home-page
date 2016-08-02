@@ -1,0 +1,53 @@
+
+
+
+.why-us .left-box, .why-us .right-box {
+  padding-top: 100px;
+  font-weight:50;
+  font-size: 40px;
+  font-family: Arial;
+  border: solid gold 0px;
+}
+
+.why-us .left-box {
+  text-align: right;
+  padding-top: 150px;
+}
+
+.why-us .right-box h1 {
+  background-color: rgba(51, 51, 51, 0.14902);
+  display: inline;
+  font-size: 40px;
+}
+
+
+.why-us .mid-box {
+  margin:0 auto;
+}
+
+.hex-link {
+  position: absolute;
+  background-repeat: no-repeat;
+  display: block;
+  height: 337px;
+  width: 288px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+.hex-link.what-img{
+  background-image: url('../../img/what.png');
+
+}
+
+.hex-link.how-img{
+  background-image: url('../../img/how.png');
+  left: 70px;
+  top: 65px;
+}
+
+.hex-link.why-img{
+  background-image: url('../../img/why.png');
+  left: 118px;
+  top: 120px;
+}
