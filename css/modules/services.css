@@ -1,0 +1,40 @@
+
+.services {
+  height: 650px;
+}
+
+.services h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.services .row {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.services .col-md-4 {
+  height: 370px;
+  border: solid gold 0px;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.services .left-box {
+  background-image: url('../../img/pc.png');
+
+}
+.services .mid-box {
+  background-image: url('../../img/mobile.png');
+}
+.services .right-box {
+  background-image: url('../../img/design.png');
+}
+
+.services .well {
+  text-align: center;
+  height: 40px;
+  font-size: 16px;
+}
