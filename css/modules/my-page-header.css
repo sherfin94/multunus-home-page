@@ -1,0 +1,49 @@
+
+.my-header {
+  margin-top : 91px;
+  height: 500px;
+  background-image: url('../../img/banner.jpg');
+  background-position: left, left;
+  background-size: cover;
+}
+
+.my-header h1 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 80px;
+
+
+}
+
+.my-header h1 small {
+  color: white;
+  font-size: 25px;
+  font-family: 'Helvetica', 'Sans Serif';
+  opacity: 0.7;
+  letter-spacing: 1.5px;
+
+}
+
+@media (max-height: 600px) {
+  .my-header {
+    margin-top : 91px;
+    height: 200px;
+  }
+
+  .my-header h1 {
+    margin-top: 20px;
+    font-size: 50px;
+
+
+  }
+
+  .my-header h1 small {
+    font-size: 15px;
+
+
+  }
+}
