@@ -1,5 +1,8 @@
 
-
+.why-us {
+  border: solid gold 0px;
+  height: 450px;
+}
 
 .why-us .left-box, .why-us .right-box {
   padding-top: 100px;
