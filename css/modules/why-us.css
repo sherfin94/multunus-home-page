@@ -63,13 +63,13 @@
   left: 150px;
 }
 
-.col-sm-12.right-box{
+.why-us .col-sm-12.right-box{
   padding-top: 100px;
   padding-left: 90px;
 }
 
 @media (max-width: 1199px) {
-  .col-sm-12.right-box{
+  .why-us .col-sm-12.right-box{
     padding-top: 0;
     padding-left: 0;
     text-align: center;
@@ -80,7 +80,6 @@
   }
 
   .why-us .mid-box {
-   width: 100%;
    float:none;
   }
 
