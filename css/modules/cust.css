@@ -1,0 +1,48 @@
+
+.customer-stories p {
+  font-size: 20px;
+  color: #747474;
+}
+
+.customer-stories h1 {
+  text-align: center;
+}
+
+.customer-stories a {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  height: 100px;
+}
+
+.customer-stories a.bidpress {
+  background-image: url('../../img/logos/1.jpeg');
+}
+
+.customer-stories a.vakil {
+  background-image: url('../../img/logos/2.jpeg');
+}
+
+.customer-stories a.intersect {
+  background-image: url('../../img/logos/3.jpeg');
+}
+
+.customer-stories a.health {
+  background-image: url('../../img/logos/4.jpeg');
+}
+
+.customer-stories img {
+  width: 293px;
+  height: 215px;
+  display: block;
+  margin: auto;
+}
+
+
+@media (max-width:991px) {
+  .customer-stories img {
+    width: 60vw;
+    height: 60vw;
+  }
+}
