@@ -54,3 +54,9 @@
   left: 118px;
   top: 120px;
 }
+
+@media (max-height: 600px) {
+  .why-us .col-md-4 {
+    display: inline-block;
+  }
+}
