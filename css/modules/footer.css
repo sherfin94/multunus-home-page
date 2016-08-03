@@ -1,0 +1,28 @@
+
+.footer {
+  background-color: rgb(228, 228, 228);
+  padding-top: 50px;
+}
+
+.footer .col-md-4 .hex-image,
+.footer .col-md-4 ul {
+  display: block;
+  margin: auto;
+  width: 196px;
+  height: 227px;
+}
+
+.footer .col-md-4 ul {
+  padding-left: 30px;
+  background-image: url('../../img/hex/6.png');
+}
+.footer .col-md-4 h1 {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.footer .social-nav li {
+  margin-top: 100px;
+  float: left;
+  margin-right: 15px;
+}
