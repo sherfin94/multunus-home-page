@@ -1,12 +1,11 @@
 
 .why-us {
   border: solid gold 0px;
-  height: 450px;
+
 }
 
 .why-us .left-box, .why-us .right-box {
   padding-top: 100px;
-  font-weight:50;
   font-size: 40px;
   font-family: Arial;
   border: solid gold 0px;
@@ -26,33 +25,68 @@
 
 .why-us .mid-box {
   margin:0 auto;
+  margin-top: 30px;
+  height: 400px;
+  width: 380px;
 }
 
 .hex-link {
   position: absolute;
   background-repeat: no-repeat;
   display: block;
-  height: 337px;
-  width: 288px;
-  margin-left: 40px;
-  margin-top: 50px;
+  margin: 0 auto;
+
 }
 
 .hex-link.what-img{
   background-image: url('../../img/what.png');
-
+  height: 337px;
+  width: 288px;
+  margin: 0 auto;
+  left:0;
+  right:0;
 }
 
 .hex-link.how-img{
   background-image: url('../../img/how.png');
-  left: 70px;
+  height: 337px;
+  width: 288px;
   top: 65px;
+  left: 100px;
 }
 
 .hex-link.why-img{
   background-image: url('../../img/why.png');
-  left: 118px;
-  top: 120px;
+  height: 337px;
+  width: 288px;
+  top: 128px;
+  left: 150px;
+}
+
+.col-sm-12.right-box{
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+@media (max-width: 1199px) {
+  .col-sm-12.right-box{
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .left-box {
+    display: none;
+  }
+
+  .mid-box {
+   width: 100%;
+   float:none;
+  }
+
+  .right-box {
+    width: 100%;
+  }
 }
 
 @media (max-height: 600px) {
