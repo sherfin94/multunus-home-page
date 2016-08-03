@@ -87,9 +87,3 @@
     width: 100%;
   }
 }
-
-@media (max-height: 600px) {
-  .why-us .col-md-4 {
-    display: inline-block;
-  }
-}
