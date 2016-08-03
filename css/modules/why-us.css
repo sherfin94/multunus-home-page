@@ -75,16 +75,16 @@
     text-align: center;
   }
 
-  .left-box {
+  .why-us .left-box {
     display: none;
   }
 
-  .mid-box {
+  .why-us .mid-box {
    width: 100%;
    float:none;
   }
 
-  .right-box {
+  .why-us .right-box {
     width: 100%;
   }
 }
