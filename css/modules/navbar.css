@@ -11,7 +11,6 @@
 
 .navbar-brand {
   padding:5px;
-
   width: 60px;
   overflow: hidden;
   transition: width 1s ;
@@ -19,6 +18,10 @@
 
 .navbar-brand:hover {
   width: 225px;
+}
+
+.navbar-default .navbar-nav li>a:visited {
+  color:white;
 }
 
 .navbar-default .my-navbar-brand,
@@ -32,11 +35,14 @@
   background-color: black;
 }
 
-.navbar-default .navbar-nav li.active>a {
+.navbar-default .navbar-nav li.active>a,
+.navbar-default .navbar-nav li.active>a:visited {
   color: red;
   border-top: solid red 4px;
   background-color: black ;
 }
+
+
 
 .navbar-default .navbar-nav li>a:hover {
   color: red;
